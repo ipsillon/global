@@ -277,7 +277,8 @@ body {
 }
 
 body {
-    background-color: #333;
+    background-color: #393e44;
+    background-image: url('../img/y/bg2.png');
     font-size: 14px;
     line-height: 1.6;
     font-family: "Montserrat", sans-serif;
@@ -1388,6 +1389,8 @@ body {
     justify-content: flex-end;
     margin: 0 auto
 }
+
+
 
 @media (max-width: 1180px) {
     .contact--lockup {
