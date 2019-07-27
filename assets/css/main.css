@@ -691,8 +691,8 @@ body {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    width: 900px;
-    max-width: 75%;
+    width: 960px;
+    max-width: 80%;
     height: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -703,7 +703,7 @@ body {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    margin: 0 auto
+    margin: 0 auto;
 }
 
 @media (max-width: 1180px) {
@@ -716,27 +716,6 @@ body {
     position: relative;
     height: 475px
 }
-
-.intro--banner::before {
-    content: "";
-    position: absolute;
-    bottom: 20px;
-    left: -15px;
-    right: 0;
-    height: 2px;
-    background-color: #c6c6c6
-}
-
-.intro--banner::after {
-    content: "";
-    position: absolute;
-    bottom: 18px;
-    left: 0;
-    width: 30px;
-    height: 4px;
-    background-color: #40b297
-}
-
 .intro--banner h1 {
     position: relative;
     font-size: 68px;
