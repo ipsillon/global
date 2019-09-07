@@ -1119,6 +1119,7 @@ body {
     margin: 0 auto
 }
 
+
 @media (max-width: 1180px) {
     .about {
         max-width: 100%
@@ -1348,17 +1349,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat
 }
-.contact1 {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url("../img/y/balaozao.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat
-}
+
 
 
 .contact--lockup {
